@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Demo 1</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+			integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+			integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="Demo1Style.css" />
+	</head>
+	<body>
+		<!-- Section One -->
+		<div class="sectionOne">
+			<header>
+				<h1>Demo 1 Section</h1>
+			</header>
+
+			<div class="sectionOne_slider">
+				<div class="sectionOne_slider-container">
+					<img src="images/flag.jpg" alt="" />
+				</div>
+				<div class="sectionOne_slider-container">
+					<img src="images/3.jpg" alt="" />
+				</div>
+				<div class="sectionOne_slider-container">
+					<img src="images/1.jpg" alt="" />
+				</div>
+				<div class="sectionOne_slider-container">
+					<img src="images/4.jpg" alt="" />
+				</div>
+				<div class="sectionOne_slider-container">
+					<img src="images/5.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$(".sectionOne_slider").slick({
+					autoplay: true,
+				});
+			});
+		</script>
+	</body>
+</html>

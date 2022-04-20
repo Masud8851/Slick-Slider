@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    color: brown;
+    text-shadow: 0 5px 5px rgb(251, 166, 105);
+}
+
+.sectionOne_slider .sectionOne_slider-container{
+    background-color: brown;
+}
+
+.sectionOne_slider .sectionOne_slider-container img{
+    width: 100%;
+    height: max-content;
+}
