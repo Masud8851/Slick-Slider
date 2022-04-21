@@ -23,12 +23,19 @@ header{
    
 }
 
-.sectionOne_slider .sectionOne_slider-container img{
+.sectionOne_slider-container img{
     width: 100%;  
-    height: 400px;
+    height: 500px;
 }
 
-.sectionOne_slider{
+.slider_container__section{
     width: 80%;
     margin: auto;
+}
+
+@media screen and (max-width:320px) {
+    .sectionOne_slider .sectionOne_slider-container img, .slider_container__section .sectionOne_slider-container img{
+        width: 100%;  
+        height: 200px;
+    }
 }
